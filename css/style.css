@@ -1,0 +1,26 @@
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+}
+body h1 {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+body h2 {
+  color: blueviolet;
+  font-size: 2rem;
+  text-align: center;
+  background-color: rgb(177, 169, 169);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+section {
+  width: 100%;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
