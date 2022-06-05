@@ -30,7 +30,7 @@ let intCpQuestion3;
 //Funcion de entrada para personalizar el nombre de quien va a jugar
 function saludar(){
     user = prompt("Ingresa tu nombre para jugar:");
-    while (user =="") {
+    while (user ==="" || user === null) {
         alert("No ingresaste nada\nPara poder jugar necesitas ingresar tu nombre o apodo");
         user = prompt("Ingresa tu nombre para jugar:");
     }
@@ -40,7 +40,7 @@ function saludar(){
 //Funcion donde vamos a crear todas las categorias de los QUIz
 function categorias(){
     categoria = parseInt(prompt("( 1 ) - Geografia\n( 2 ) - Cultura General"));
-    while (isNaN(categoria) || categoria > 3) {
+    while (isNaN(categoria) || categoria > 2) {
         alert("No existe esa categoria, elija nuevamente");
         categoria = parseInt(prompt("( 1 )-Geografia\n( 2 )-Cultura General"));
     }
